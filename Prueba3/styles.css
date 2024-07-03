@@ -1,0 +1,68 @@
+/* Pagina en general. */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+/*Esto es la cabecera*/
+header{
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: white;
+    padding: 10px 0;
+}
+/* Esta es la barra principal*/
+.barra{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    position: relative; /* Para posicionar los submenús */
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px;
+    display: block;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+nav ul ul li {
+    margin-bottom: 5px;
+}
+nav ul ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+nav ul ul li a:hover {
+    background-color: #555;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
