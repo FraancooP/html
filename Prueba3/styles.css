@@ -1,9 +1,12 @@
+/* RECETEI DE STYLES*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*FIN RECETEO */
+/*-------------------------------------------------------------------------------------------------*/
 /* ESTILO DE TODA LA PAGINA PRINCIPAL, INCLUIDO MENUBAR. */
 body{
     background-color: #f0f0f0;
@@ -70,9 +73,9 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-/* FIN ESTILO DE TODA LA PAGINA PRINCIPAL*/
+/* FIN ESTILO PRINCIPAL*/
+/*-------------------------------------------------------------------------------------------------*/
 /* Estilos para el Carousel */
-
 .slider-box{
     width: 1000px;
     height: auto;
@@ -104,8 +107,6 @@ footer {
 .ver-mas:hover{
     color: #555;
 }
-
-
 @keyframes slide {
     0% {
         transform: translateX(0);
@@ -144,3 +145,5 @@ footer {
         transform: translateX(-73%);
     }
 }
+/*FIN Estilos para el Carousel */
+/*-------------------------------------------------------------------------------------------------*/
